@@ -3,7 +3,7 @@ const DiscordRPC = require('discord-rpc'),
 	spotify = new nodeSpotifyWebhelper.SpotifyWebHelper(),
 	config = require('./config.json');
 
-const ClientId = config.clientId || "384286107036155904";
+const ClientId = config.clientId || "1008778713984413849";
 const imageKey = config.largeImageKey || "spotify";
 const imageText = config.largeImageText || undefined;
 
